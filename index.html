@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo.png">
+    <title>RENKON</title>
+    <style>
+
+
+        @font-face {
+            font-family: 'FC Mission Rounded';
+            src: url('FC Mission Rounded [Non-commercial].ttf') format('truetype');
+        }
+        
+        body {
+            background-image: url('bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: FC Mission Rounded;
+        }
+
+        .contact {
+            color: #000;
+            font-size: 48px;
+            text-align: center;
+            text-shadow: 2px 3px #ffffff;
+            margin-bottom: 20px;
+        }
+
+        #me {
+            display: block;
+            margin: 0 auto 20px;
+            width: 175px;
+            height: 175px;
+            border-radius: 50%;
+        }
+
+        #bio {
+            font-size: 20px;
+            text-align: left;
+            margin: 10px 30% 20px;
+            text-shadow: 2px 1px #f0f0f0;
+            color: #333;
+            padding-top: 10px;
+        }
+
+        #contacthead {
+            font-size: 32px;
+            text-align: center;
+            text-shadow: 2px 2px #f0f0f0;
+            margin: 20px 0;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .contactleft {
+            font-family: FC Mission Rounded;
+            font-size: 18px;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #F5DEB3;
+            border: 3px solid #CC5500;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .contactleft:hover {
+            color: #728fce;
+        }
+        iframe {
+            width: 420px;
+            height: 290px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div class="contact">Renkon</div>
+        <img id="me" src="pfp.png" alt="Profile Picture">
+        <div id="bio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;วีทูปเบอร์เคโมะ-TH (พันธุ์เสือโคร่ง)<br>
+            ฉันจะทำกิจกรรมมากมาย เช่น ร้องเพลง แต่งเพลง เล่นเกม และแชท! 
+
+        <div id="contacthead">ช่องทางการติดตาม</div>
+        <div class="button-container">
+            <button onclick="window.open(' https://x.com/Hiroaki_Renkon')" class="contactleft">X</button>
+            <button onclick="window.open('https://www.facebook.com/renkon.V1/')" class="contactleft">Facebook</button>
+            <button onclick="window.open('https://www.youtube.com/@RENKON12')" class="contactleft">YouTube</button>
+            <button onclick="window.open('https://bsky.app/profile/renkon.bsky.social')" class="contactleft">BlueSky</button>
+        </div>
+
+        <div style="text-align: center; margin: 20px 0;">
+            <iframe 
+                src="https://www.youtube.com/embed/oPWYdnmGdrI?autoplay=1&mute=1" 
+                title="【Preview】คงคา" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        
+    </div>
+</body>
+</html>
